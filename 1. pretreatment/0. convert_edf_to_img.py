@@ -7,7 +7,7 @@ print('0. convert edf to img')
 file_path = '../0. data/r01.edf'
 edf_file = pyedflib.EdfReader(file_path)
 
-# 选择你需要的信号通道，假设0是心电图信号
+# 选择第 0 个信号标签的信号
 ecg_signal = edf_file.readSignal(0)
 
 # 获取采样率，用于确定时间轴
