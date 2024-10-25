@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 
 print('0. convert edf to img')
 # 打开 .edf 文件
-file_path = '../0. data/r01.edf'
+file_path = '../compressed_output.edf'
+# file_path = '../0. data/r01.edf'
 edf_file = pyedflib.EdfReader(file_path)
 
 # 选择第 0 个信号标签的信号
