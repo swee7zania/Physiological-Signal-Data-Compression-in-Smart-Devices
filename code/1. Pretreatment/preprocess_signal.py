@@ -20,7 +20,7 @@ def plot_signal(signal, label):
 
 if __name__ == "__main__":
     file_path = '../0. data/r01.edf'
-    signals, labels = read_edf(file_path)
+    signals, labels =read_edf(file_path)
 
     for i, signal in enumerate(signals):
         # 对信号进行标准化

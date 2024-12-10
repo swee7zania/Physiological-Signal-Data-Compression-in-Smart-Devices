@@ -1,6 +1,4 @@
 import pyedflib
-import numpy as np
-
 
 def read_edf(file_path):
     f = pyedflib.EdfReader(file_path)
